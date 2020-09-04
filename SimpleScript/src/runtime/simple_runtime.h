@@ -13,7 +13,5 @@ struct {
 } typedef runtime_data; //TODO Naming scheme
 
 // Prototypes
-void srt_test(void);
-void srt_run(void);
 
 #endif //SIMPLESCRIPT_SIMPLE_RUNTIME_H

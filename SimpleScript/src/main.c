@@ -6,7 +6,7 @@
 //TODO Naming convention.
 //TODO spdlog?
 int main(void) {
-    printf("Hello, World!\n");
+    printf("Simple Script start at .\n"); //TODO Add date.
 	
     return 0;
 }

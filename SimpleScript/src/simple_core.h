@@ -4,3 +4,10 @@
 // #define
 
 #endif //SIMPLESCRIPT_SIMPLE_CORE_H
+
+/*
+ * NAMING:
+ * -
+ * -
+ * - 
+ */
