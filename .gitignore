@@ -1,0 +1,15 @@
+.idea
+.vscode
+
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+bin
+bin-int
+
+build
+
+*.log
