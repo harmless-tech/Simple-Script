@@ -11,5 +11,6 @@ bin
 bin-int
 
 build
+target
 
 *.log
