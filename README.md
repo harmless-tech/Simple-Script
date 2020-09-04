@@ -4,9 +4,6 @@ SimpleScript has no objects or structs, instead opting to use just primitives, t
 
 [Prototype Repo](https://github.com/harmless-tech/Simple-Script-Prototype)
 
-### Language Spec
-TODO Add url to language spec.
-
 ### Goals
 - Only primitive data types and arrays.
 - No structs or objects.
