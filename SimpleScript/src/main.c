@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-#include "compiler/simple_compiler.h"
-#include "runtime/simple_runtime.h"
+#include "c11threads.h"
+
+#include "simple_compiler.h"
+#include "simple_runtime.h"
 
 //TODO Naming convention.
 //TODO spdlog?
@@ -16,5 +18,11 @@ int main(void) {
     printf("%i\n", (int) 0.9345763287456238);
     //
 
+    
+	
     return 0;
+}
+
+void *thread_task(void *item) {
+    return NULL;
 }

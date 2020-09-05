@@ -1,5 +1,5 @@
-project "SimpleScript"
-    kind "ConsoleApp"
+project "SimpleCompiler"
+    kind "StaticLib"
     language "C"
     cdialect "C11" -- Allows for multi-threading.
     staticruntime "on"
@@ -13,15 +13,12 @@ project "SimpleScript"
     }
 
     includedirs {
-        "%{wks.location}/SimpleCompiler/src",
-        "%{wks.location}/SimpleRuntime/src",
-
-        "%{IncludeDir.c11threads}"
+        "src",
+        "%{wks.location}/SimpleShared/src"
     }
 
     links {
-        "SimpleCompiler",
-        "SimpleRuntime"
+        "SimpleShared"
     }
 
     filter "system:windows"
